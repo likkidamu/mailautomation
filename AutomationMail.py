@@ -30,11 +30,11 @@ def get_name_email_dict():
 # Email Configuration
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
-sender_email = "damodhardatta1@gmail.com"
-sender_password = "denr kzer quhx xgpe"
-cc_recipients = ["lavya@vtechinfotech.com"]  
+sender_email = "Abc"
+sender_password = "token"
+cc_recipients = ["abc"]  
 # File to attach
-attachment_path = "Damodhar_Resume.docx";  
+attachment_path = "attach";  
 
     # Connect to SMTP Server
 server = smtplib.SMTP(smtp_server, smtp_port)
